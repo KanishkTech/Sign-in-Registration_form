@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+    
+</head>
+<body>
+    <div class="registration-container">
+        <h2>Registration Form</h2>
+        <form>
+            <input type="text" placeholder="Full Name" required>
+            <input type="text" placeholder="Surname" required>
+            <input type="text" placeholder="Last Name" required>
+            <input type="text" placeholder="College Registration Number" required>
+            <input type="text" placeholder="Organization" required>
+            <input type="email" placeholder="College Email" required>
+            <input type="email" placeholder="Personal Email" required>
+            <select required>
+                <option value="" disabled selected>Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <input type="date" placeholder="Date of Birth" required>
+            <input type="number" placeholder="Year of Graduation (Higher Qualification)" required>
+            <input type="number" placeholder="Pin Code" required>
+            <select required>
+                <option value="" disabled selected>Select State</option>
+                <option value="state1">State 1</option>
+                <option value="state2">State 2</option>
+                <!-- Add more states here -->
+            </select>
+            <select required>
+                <option value="" disabled selected>Select District</option>
+                <option value="district1">District 1</option>
+                <option value="district2">District 2</option>
+                <!-- Add more districts here -->
+            </select>
+            <input type="text" placeholder="Current Year" required>
+            <input type="text" placeholder="Department" required>
+            <input type="text" placeholder="Degree" required>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
